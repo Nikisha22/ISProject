@@ -1,0 +1,33 @@
+/*------- font- famiy plex sans bold------ */
+@font-face {
+    font-family:plexsansB;
+    src: url('../IBM_Plex_Sans/IBMPlexSans-Bold.ttf');
+}
+
+/*----font famiy plex sans regular--------*/
+@font-face {
+    font-family:plexsansR ;
+    src: url('../IBM_Plex_Sans/IBMPlexSans-Regular.ttf');
+}
+
+/*----font famiy plexsans semibold--------*/
+@font-face {
+    font-family:plexsansS ;
+    src: url('../IBM_Plex_Sans_Condensed/IBMPlexSansCondensed-SemiBold.ttf');
+}
+
+/*----font famiy plex mono regular--------*/
+@font-face {
+    font-family:plexmono;
+    src: url('../IBM_Plex_Mono/IBMPlexMono-Regular.ttf');
+}
+/*----font famiy plex serif bold---------*/
+@font-face{
+    font-family:plexserifB;
+    src: url('../IBMPlexSerif-Bold.ttf');
+}
+/*----font famiy plex serif regular--------*/
+@font-face {
+    font-family:plexserifR ;
+    src: url('../IBMPlexSerif-Regular.ttf');
+}

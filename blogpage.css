@@ -1,0 +1,285 @@
+/* Bonsai Blog Section styles*/
+
+*{padding: 0; margin:0; box-sizing: border-box; background-color: rgb(121, 172, 137);}
+.nav1{
+	width: 100%;
+	height: 50px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 100px 0px;
+}
+.s-icon i{
+	font-size: 20px;
+	margin:0px 5px;
+	border-radius: 50%;
+	padding: 10px;
+	background: #b5f7b5;
+	color: rgb(56, 196, 86);
+}
+.logo{
+	text-align: center;
+	font-size: 50px;
+	line-height: 40px;
+	/* font-family: 'Dancing Script', cursive; */
+}
+
+.logo img{
+	height: 200px;
+	width: 250px;
+}
+
+.logo span{
+	font-size: 20px;
+	color: #a6b2a7;
+}
+.search i{
+	font-size: 30px;
+	color: #80e580;
+}
+.nav2{
+	width: 100%;
+	height: 50px;
+	box-shadow: 2px 3px 5px grey;
+}
+.menu{
+	width: 70%;
+	height: 50px;
+	margin:auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.menu a{
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+	padding: 10px 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family: 'Roboto', sans-serif;
+}
+header{
+	width: 100%;
+	display: flex;
+}
+header div{
+	position: relative;
+	cursor: pointer;
+	overflow: hidden;
+}
+header div img{
+	width: 100%;
+	height: 100%;
+	transition: 0.4s ease-in-out;
+
+}
+header div p{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 80px;
+	line-height: 80px;
+	background: rgba(0,0,0,0.8);
+	color: white;
+	font-size: 20px;
+	text-align: center;
+}
+header div a{
+	text-decoration: none;
+	background:#393b39;
+	color: white;
+	font-size: 20px;
+	padding: 10px 20px; 
+}
+header div img:hover{
+	transform: scale(1.5);
+}
+
+#play{
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	font-size: 20px;
+	color: white;
+	background:  #364032;
+	padding: 20px;
+	border-radius: 50%;
+	text-align: center;
+}
+#about{
+	padding: 100px 50px;
+	width: 100%;
+}
+.about-row{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.about-left-col{
+	flex-basis: 70%;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	
+}
+.about-right-col{
+	flex-basis: 30%;
+}
+.about-left-col img{
+	width: 80%;
+	background:  #99bb8c;
+	width: 300px;
+	border-radius: 200px;
+}
+.about-left-col h2{
+	color:  #3a4436;
+}
+
+.about-left-col h1{
+	font-size: 40px;
+	font-family: 'Roboto', sans-serif;
+}
+.about-left-col p{
+	color: grey;
+	font-size: 20px;
+	text-transform: uppercase;
+	margin:20px 0px;
+
+}
+#about-text{
+	font-size: 20px;
+	color: rgb(48, 8, 30);
+	text-align: justify;
+	width: 80%;
+	margin:20px auto;
+	text-transform: capitalize;
+}
+.about-left-col a{
+	text-decoration: none;
+	color: white;
+	background: #9bda84;
+	padding: 10px 20px;
+	border: 1px solid white;
+}
+.aboutme{
+	padding: 20px;
+	text-align: center;
+	max-width: 300px;
+	margin:20px auto;
+}
+.aboutme h2{
+	font-size: 40px;
+	position: relative;
+	margin-left: -80px;
+	
+	/* font-family: 'Dancing Script', cursive; */
+}
+.aboutme h2:before{
+	content: "";
+	width: 50px;
+	height: 2px;
+	position: absolute;
+	top:50%;
+	left: 0;
+	background:  #92e175;
+}
+.aboutme h2:after{
+	content: "";
+	width: 50px;
+	height: 2px;
+	position: absolute;
+	top:50%;
+	right: 0;
+	background:  #3c612f;
+}
+.aboutme p{
+	font-size: 20px;
+	margin:10px 0px;
+}
+.aboutme i{
+	font-size: 30px;
+	margin:20px 5px;
+	border:1px solid black;
+	padding: 10px;
+	cursor: pointer;
+}
+.aboutme i:hover{
+	background:   #7bb466;
+	color: white;
+	transition: 0.4s linear;	
+}
+.aboutme input{
+	width: 100%;
+	padding: 10px;
+	outline: none;
+	border:1px solid rgb(51, 49, 49);
+	margin:20px 0px;
+
+}
+.aboutme button{
+	background:   #213619;
+	color: white;
+	padding: 10px 20px;
+	border:none;
+	outline: none;
+	width: 80%;
+	cursor: pointer;
+}
+.aboutme button:hover{
+	color: #020102;
+}
+
+#trends{
+	width: 100%;
+	padding: 50px 100px;
+}
+.trends-row{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.trends-left-col{
+	flex-basis: 60%;
+	cursor: pointer;
+
+}
+.trends-right-col{
+	flex-basis: 30%;
+}
+.trends-right-col img{
+  	width: 100%;
+}
+.post{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin:20px auto;
+}
+.post img{
+	width: 100px;
+	height: 100px;
+	margin-right: 40px;
+	border-radius: 50%;
+	
+}
+.text h3{
+	font-size: 30px;
+	/* font-family: 'Dancing Script', cursive; */
+}
+.text h3:hover{
+	color:  #69a852; 
+}
+.text p{
+	color: rgb(138, 127, 127);
+}
+/* footer{
+	background: #262626;
+	color: white;
+	padding: 10px 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}  */
+
+

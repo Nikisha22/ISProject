@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Homepage- Eden Garden</title>
+
+  <!-- font awesome link -->
+  <script src="https://kit.fontawesome.com/cd4b31b5df.js" crossorigin="anonymous"></script>
+
+  <!-- style file link -->
+  <link rel="stylesheet" href="./css/homepage.css">
+
+  <!-- swiper link -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+
+  <!-- internal css part -->
+  <style>
+    .header {
+      margin-top: 3.5rem;
+      margin-left: 20rem;
+      margin-right: 20rem;
+      border-radius: 10px;
+      position: sticky;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 1000;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 2rem 9%;
+      background: #fff;
+      box-shadow: 0px 3px 20px black;
+    }
+
+    .btn {
+      margin-top: 1rem;
+      display: inline-block;
+      padding: .8rem 3rem;
+      font-size: 1.7rem;
+      border-radius: .5rem;
+      border: .2rem solid black;
+      color: black;
+      cursor: pointer;
+      background: none;
+    }
+  </style>
+
+  <!-- internal css part close -->
+
+  <!------link of java file open------->
+  <script src="./js/product.js"></script>
+  <!--x----link of java file close-----x-->
+
+</head>
+
+<body>
+
+  <!-- header section -->
+
+  <header class="header">
+
+
+    <img src="./assets/logo.jpg" alt="LOGO" class="logo">
+
+    <!-- navigation part -->
+
+    <nav class="nav">
+      <a href="allhome.html">Home</a>
+      <a href="Product.html">Product</a>
+      <a href="blogpage.html">Blogs</a>
+      <a href="research.html">Research</a>
+      <a href="About Us.html">About Us</a>
+    </nav>
+
+    <!-- navigation part end -->
+
+    <!-- extra button -->
+    <div class="button">
+      <div class="fas fa-search" id="search-btn"></div>
+      <div class="fas fa-shopping-cart" id="cart-btn"></div>
+      <div class="fas fa-user" id="login-btn"></div>
+    </div>
+
+    <!-- extra button end -->
+
+    <!-- search bar -->
+
+    <form action="" class="search-form">
+      <input type="search" id="search-box" placeholder="search here...">
+      <label for="search-box" class="fas fa-search"></label>
+    </form>
+
+    <!-- search bar end -->
+
+    <div class="cart">
+      <div class="box">
+        <i class="fas fa-trash"></i>
+        <img src="/Pictures/JapaneseMaple.png" alt="Japanese Mapple">
+        <div class="content">
+          <h3>Japanese Maple</h3>
+          <span class="price">$4.89/-</span>
+          <span class="quantity">Qty : 1</span>
+        </div>
+      </div>
+
+      <div class="box">
+        <i class="fas fa-trash"></i>
+        <img src="/Pictures/PachiraBonsai.png" alt="Pachira Bonsai">
+        <div class="content">
+          <h3>Pachira Bonsai</h3>
+          <span class="price">$5.57/-</span>
+          <span class="quantity">Qty : 1</span>
+        </div>
+      </div>
+      <div class="total"> Total : $10.46/-</div>
+      <a href="#" class="btn">Checkout</a>
+    </div>
+
+    <form action="" class="login-form">
+      <h3>Login now</h3>
+      <input type="email" placeholder="Email or username" class="box">
+      <input type="password" placeholder="Password" class="box">
+      <p>forget your password<a href="#">Click here</a></p>
+      <p>Don't have an account<a href="#">Create new</a></p>
+      <input type="submit" value="login now" class="btn">
+    </form>
+
+  </header>
+
+  <!-- header section end -->
+
+
+  <!-----main section open------->
+  <main>
+    <!-----site title open------>
+    <section class="site-title">
+      <div class="site-background">
+        <!---home ato-type open------->
+        <div class="type-writter">
+          <h1>Go Green Go</h1>
+          <h1>Go Green Go</h1>
+        </div>
+        <div>
+          <h2><span class="auto-type"></span>
+          </h2>
+        </div>
+
+        <a href="index.html"><button class="butt">First page</button></a>
+
+
+        <!---x--home ato-type close----x--->
+      </div>
+    </section>
+    <!---x--site title close---x--->
+
+    <!---x---site title close----x---->
+    <!------product carousel open------->
+    <section class="product">
+      <h1 style="margin-top:0.5rem; margin-left: 20rem; text-align: center;">Products we offer</h1>
+      <p style="margin-left: 15rem; font-size: 2rem; text-align: center;">We offer 16 different products with best price
+        and discounts.</p>
+      <div style="display: flex; justify-content: space-between; margin-right: -30rem; margin-top: 2rem;">
+        <div class="row">
+          <img class="pro1" src="./Image/bon4.jpg" alt="Portulacaria afra">
+          <div class="pro1-overlay">
+            <div class="pro1-title">Portulacaria afra</div>
+            <a href="Product.html"><button class="butt"> View More</button></a>
+
+
+          </div>
+        </div>
+        <div class="row">
+          <img class="pro1" src="./Image/chinese-elm.png" alt="chinese-elm">
+          <div class="pro1-overlay">
+            <div class="pro1-title">chinese-elm</div>
+            <a href="Product.html"><button class="butt"> View More</button></a>
+
+
+          </div>
+        </div>
+        <div class="row">
+          <img class="pro1" src="./Image/ficus.jpg" alt="Ficus">
+          <div class="pro1-overlay">
+            <div class="pro1-title">Ficus</div>
+            <a href="Product.html"><button class="butt"> View More</button></a>
+
+
+          </div>
+        </div>
+      </div>
+
+      <h1 style="margin-top: 5rem; margin-left: 20rem; text-align: center;">Know more about bonsai</h1>
+      <p style="margin-left: 15rem; font-size: 2rem; text-align: center;">Ways to take care of bonsai before its too
+        late!!</p>
+      <div class="post">
+        <img src="Image/bon5.jpg">
+        <div class="blog-col">
+          <h3>Impact of technology on Bonsai</h3>
+          <p style="font-size:2em;">Technology can have both negative and positve impact on social as well as on our
+            environment. Here are some...</p>
+          <a href="blogpage.html"><button class="butt"> View More</button></a>
+        </div>
+      </div>
+      <div
+        style="display: flex; justify-content: space-between; margin-right: 5rem;margin-left: 30rem; margin-top: 4rem;border-radius: 50%;">
+
+        <div class="row">
+          <img class="pro1" src="./Pictures/research.jpg" alt="Portulacaria afra">
+          <div class="pro1-overlay">
+            <div class="pro1-title">Research</div>
+            <a href="research.html"><button class="butt"> What we do</button></a>
+          </div>
+        </div>
+
+        <div class="row">
+          <img class="pro1" src="./Pictures/team1.jpg" alt="Portulacaria afra">
+          <div class="pro1-overlay">
+            <div class="pro1-title">About us</div>
+            <a href="About Us.html"><button class="butt"> Who we are</button></a>
+          </div>
+
+
+        </div>
+      </div>
+    </section>
+
+    <!---x---product carousel close---x---->
+
+
+    <!---x----main section close----x--->
+  </main>
+
+  <!-- bottom start -->
+
+  <div class="endo">
+
+    <div class="hoi">
+      <img src="./assets/footer.png" alt="">
+
+      <div class="phone">
+
+        <p>Contact Us</p>
+        <p class="num"><i class="fa-solid fa-phone"></i> +977-9800140014, 021-432145</p>
+
+      </div>
+
+
+
+      <div class="socio">
+
+        <p>Follow us on</p>
+        <a href="#">
+          <i class="fa-brands fa-facebook"></i>
+        </a>
+
+        <a href="#">
+          <i class="fa-brands fa-square-instagram"></i>
+        </a>
+
+        <a href="#">
+          <i class="fa-brands fa-twitter"></i>
+        </a>
+
+        <a href="https://www.youtube.com/">
+          <i class="fa-brands fa-youtube"></i>
+        </a>
+
+      </div>
+
+      <div class="baka">
+        <a href="#">Back to top</a>
+
+        <a href="#">
+          <i class="fa-solid fa-comment"></i>
+        </a>
+      </div>
+
+    </div>
+
+
+
+  </div>
+
+
+
+
+
+
+  <!-- bottom end -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script>
+    var typed = new Typed(".auto-type", {
+      strings: ["Connecting nature to your home", "Add a plant to your life", "Making Greenary"],
+      typeSpeed: 100,
+      backSpeed: 50,
+      loop: true
+    })
+
+  </script>
+
+
+</body>
+
+</html>

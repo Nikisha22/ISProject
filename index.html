@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Eden Garden</title>
+   <!--------custom style------>
+   <link rel="stylesheet" href="./css/style1.css">
+</head>
+
+<body>
+   <!-------imaage slider open------>
+   <section class="slider">
+   
+      <div class="slides">
+         
+         <!---radio button open------>
+         <input type="radio" name="radio-btn" id="radio1">
+         <input type="radio" name="radio-btn" id="radio2">
+         <input type="radio" name="radio-btn" id="radio3">
+         <input type="radio" name="radio-btn" id="radio4">
+         <input type="radio" name="radio-btn" id="radio5">
+      
+         <!---x---radio button close---x--->
+         <!-------image starts---------->
+         <div class="slide first">
+            <img src="./assets/logo1.jpg" alt="">
+         </div>
+         <div class="slide">
+            <img src="assets/logo2.jpg" alt="">
+         </div>
+         <div class="slide">
+            <img src="assets/logo3.jpg" alt="">
+         </div>
+         <div class="slide">
+            <img src="assets/logo4.jpg" alt="">
+         </div>
+         <div class="slide ">
+            <img src="assets/logo5.jpg" alt="">
+         </div>
+         <!---x----image close-----x----->
+         <!----Automatic navigation starts------>
+         <div class="navigation-auto">
+            <div class="auto-btn-1"></div>
+            <div class="auto-btn-2"></div>
+            <div class="auto-btn-3"></div>
+            <div class="auto-btn-4"></div>
+            <div class="auto-btn-5"></div>
+         </div>
+         <!----Automatic navigation close------>
+      </div>
+      <!------Mannual navigation starts-------->
+      <div class="navigation-mannual">
+         <label for="radio1" class="mannual1-btn"></label>
+         <label for="radio2" class="mannual1-btn"></label>
+         <label for="radio3" class="mannual1-btn"></label>
+         <label for="radio4" class="mannual1-btn"></label>
+         <label for="radio5" class="mannual1-btn"></label>
+      </div>
+      <a href="allhome.html"><button class="btn">Go to Home</button></a>
+      <!--x----Mannual navigation close----x---->
+   </section>
+
+
+
+   <!----x---imaage slider close---x--->
+   <!---------internal java script starts------->
+   <script>
+      var counter = 1;
+      setInterval(function () {
+         document.getElementById('radio' + counter).checked = true;
+         counter++;
+         if (counter > 5) {
+            counter = 1;
+         }
+      }, 2000)
+   </script>
+   <!-----x----internal java script closes---x---->
+</body>
